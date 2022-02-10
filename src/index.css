@@ -2,10 +2,134 @@
 
 body {
   font-family: 'Readex Pro', sans-serif;
- 
+  color:#000;
+  background-color: #fff;
+  padding: 2% 5%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h2 {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+h3 {
+  margin-top: 30px;
+  text-align: center;
+color: rgb(153, 153, 153);
+}
+.navbar-brand {
+  color: #000;
+  font-weight: 700;
+  font-size: 2.1rem;
+}
+.navbar-brand:hover{
+  color: #000;
+}
+.nav-link {
+  color: #000;
+}
+.nav-link:hover {
+  color: #000;
+}
+
+
+.imgs {
+  width: 100%;
+}
+
+.orange {
+  border: 1px orangered solid;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  background-color: orangered;
+  margin-bottom: 10px;
+}
+
+.green {
+  border: 1px green solid;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  background-color: green;
+  margin-bottom: 10px;
+}
+.red {
+  border: 1px red solid;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  background-color: red;
+  margin-bottom: 10px;
+}
+h6 {
+  font-weight: 100;
+}
+
+.search {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+input {
+  width: 40%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 5px;
+}
+.oranges 
+{
+color:orangered;
+}
+
+.greens 
+{
+  color: green;
+}
+
+.reds
+{
+  color: red;
+}
+.tops {
+  margin-top: 20px;
+}
+.bot {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:920px) {
+  input {
+    width: 100%;
+   
+  }
+  .search {
+
+    padding-bottom: 10px;
+  }
+  .greens 
+{
+  margin-top: 20px;
+}
+.reds 
+{
+  margin-top: 20px;
+} 
+ .oranges 
+{
+  margin-top: 20px;
+}
+  .bot {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }
